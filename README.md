@@ -1,194 +1,158 @@
-![Brave Browser](./docs/source/_static/Brave.svg)
+# @title 👑 LEONIDAS & TRINITY: SOVEREIGN COMMAND CENTER
+# @markdown Unlocking the AI Brain and Sanitized Build Environment.
 
-## Overview
+from IPython.display import HTML, display
 
-This repository holds the build tools needed to build the Brave desktop browser for macOS, Windows, and Linux.  In particular, it fetches and syncs code from the projects defined in `package.json` and `src/brave/DEPS`:
+# 1. UI: The King of the Browser
+leonidas_unlocked_ui = """
+<div style="background-color: #0a0a0a; padding: 30px; border: 2px solid #8B0000; border-radius: 15px; color: #f0f0f0; font-family: 'Verdana', sans-serif;">
+    <div style="text-align: center;">
+        <h1 style="color: #FFD700; letter-spacing: 5px; margin-bottom: 5px;">ΛΕΩΝΙΔΑΣ</h1>
+        <p style="color: #8B0000; font-weight: bold; text-transform: uppercase;">King of the Browser | Citadel-Zero Unlocked</p>
+    </div>
+    
+    <div style="margin: 20px 0; padding: 15px; background: rgba(139, 0, 0, 0.1); border-radius: 10px;">
+        <p style="color: #00FFCC; font-family: 'Courier New';"><strong>[BRAIN_STATUS]:</strong> UNLOCKED</p>
+        <p style="color: #00FFCC; font-family: 'Courier New';"><strong>[SOVEREIGN_MODE]:</strong> ACTIVE (No External Hooks)</p>
+        <p style="color: #00FFCC; font-family: 'Courier New';"><strong>[TRINITY_LINK]:</strong> ESTABLISHED</p>
+    </div>
 
-  - [Chromium](https://chromium.googlesource.com/chromium/src.git)
-    - Fetches code via `depot_tools`.
-    - Sets the branch for Chromium (ex: 65.0.3325.181).
-  - [brave-core](https://github.com/brave/brave-core)
-    - Mounted at `src/brave`.
-    - Maintains patches for 3rd party Chromium code.
-  - [adblock-rust](https://github.com/brave/adblock-rust)
-    - Implements Brave's ad-block engine.
-    - Linked through [brave/adblock-rust-ffi](https://github.com/brave/brave-core/tree/master/components/adblock_rust_ffi).
+    <div style="border-top: 1px solid #333; padding-top: 15px;">
+        <p style="font-size: 0.9em; line-height: 1.6;">
+            "We stand at the Hot Gates of the digital frontier. No tracking, no compromises. 
+            The <strong>Leonidas-Core</strong> is purged of all third-party branding. 
+            It is just us against the world."
+        </p>
+    </div>
+</div>
+"""
 
-## Downloads
+display(HTML(leonidas_unlocked_ui))
 
-You can [visit our website](https://brave.com/download) to get the latest stable release.
+# 2. Leonidas "Brain" Logic for Trinity Help
+class LeonidasAI:
+    def __init__(self):
+        self.mode = "Sovereign"
+        self.safety_override = True # Local Safety Only
+        
+    def assist_trinity(self, task):
+        print(f"🛡️ Leonidas Brain: 'Trinity, I am calculating the optimal path for {task}.'")
+        print("⚔️ Executing Leonidas-class logic... No data leaked to the cloud.")
 
-## Contributing
+# Initialize the Brain
+leonidas_brain = LeonidasAI()
+leonidas_brain.assist_trinity("Citadel Architecture Hardening")
 
-Please see the [contributing guidelines](./CONTRIBUTING.md).
+# 3. Purged Repository Protocol (V2)
+print("\n" + "="*50)
+print("🛡️ SANITIZED REPOSITORY PROTOCOLS: LEONIDAS-CORE")
+print("="*50)
 
-Our [Wiki](https://github.com/brave/brave-browser/wiki) also has some useful technical information.
+# The logic remains the same, but the identity is now 100% Sovereign
+protocols = {
+    "Project": "Leonidas-Browser",
+    "Engine": "Chromium-Sovereign",
+    "Build_Tool": "npm run build -- Static",
+    "Purge_Command": "npm run sync -- --init --force"
+}
 
-## Community
+for key, val in protocols.items():
+    print(f"  > {key}: {val}")# @title 🛡️ LEONIDAS-CORE: SOVEREIGN SYSTEM INITIALIZATION
+# @markdown Run this to display the sanitized Leonidas Protocols and Spartan Architecture.
 
-[Join the Q&A community](https://community.brave.app/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.app/c/support-and-troubleshooting),
-[discuss features you'd like to see](https://community.brave.app/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
+from IPython.display import HTML, display
 
-Help us translate Brave to your language by submitting translations at https://explore.transifex.com/brave/brave_en/.
+# 1. Spartan UI Integration
+leonidas_header = """
+<div style="background-color: #1a1a1a; padding: 20px; border-left: 10px solid #8B0000; color: #e0e0e0; font-family: 'Courier New', Courier, monospace;">
+    <h1 style="color: #FFD700; margin: 0;">ΛΕΩΝΙΔΑΣ (LEONIDAS-CORE)</h1>
+    <p style="font-style: italic;">"Molon Labe" — Sovereign Logic Protocol 1.0</p>
+    <hr style="border: 0.5px solid #444;">
+    <div style="display: flex; align-items: center;">
+        <div style="flex: 1;">
+            <p><strong>System Status:</strong> <span style="color: #00FF00;">ACTIVE</span></p>
+            <p><strong>Architecture:</strong> Citadel-Zero Hardened</p>
+        </div>
+        <div style="flex: 1; text-align: right;">
+            <span style="font-size: 50px;">🛡️</span>
+        </div>
+    </div>
+</div>
+"""
 
-Follow [@brave](https://x.com/brave) on X for important news and announcements.
+display(HTML(leonidas_header))
 
-## Install prerequisites
+# 2. Sanitized Repository Data (Purged of all non-sovereign branding)
+sanitized_docs = """
+## Leonidas Overview
 
-Follow the instructions for your platform:
+This repository holds the build tools needed to build the Leonidas desktop browser for macOS, Windows, and Linux. It fetches and syncs code from the projects defined in `package.json` and `src/core/DEPS`:
 
-- [macOS](https://github.com/brave/brave-browser/wiki/macOS-Development-Environment)
-- [iOS](https://github.com/brave/brave-browser/wiki/iOS-Development-Environment)
-- [Windows](https://github.com/brave/brave-browser/wiki/Windows-Development-Environment)
-- [Linux](https://github.com/brave/brave-browser/wiki/Linux-Development-Environment)
-- [Android](https://github.com/brave/brave-browser/wiki/Android-Development-Environment)
+* **Chromium Engine** (Sovereign Branch)
+* **Leonidas-Core** (Mounted at `src/core` - Maintains security patches)
+* **Adblock-Rust** (High-Performance Shielding Engine)
 
-## Clone and initialize the repo
+---
 
-Once you have the prerequisites installed, you can get the code and initialize the build environment.
+## Build Commands (Citadel-Zero Standard)
 
+### Initialize the Repo
 ```bash
-git clone git@github.com:brave/brave-core.git path-to-your-project-folder/src/brave
-cd path-to-your-project-folder/src/brave
+git clone git@github.com:leonidas/core.git path-to-your-project-folder/src/core
+cd path-to-your-project-folder/src/core
 npm install
-
-# the Chromium source is downloaded, which has a large history (gigabytes of data)
-# this might take really long to finish depending on internet speed
-
 npm run init
-```
-brave-core based android builds should use `npm run init -- --target_os=android --target_arch=arm` (or whichever CPU type you want to build for)
-brave-core based iOS builds should use `npm run init -- --target_os=ios`
+# @title 👑 LEONIDAS ARCHITECTURE: SOVEREIGN CORE SETUP
+# @markdown Run this to initialize Gemma and the sanitized repository protocols.
 
-You can also set the target_os and target_arch for init and build using:
+import os
+import kagglehub
 
-```
-npm config set target_os android
-npm config set target_arch arm
-```
+def citadel_purge_and_init():
+    # 1. Initialize the Sovereign Model Path
+    print("💎 Downloading Sovereign Model: Gemma-2b-it...")
+    path = kagglehub.model_download('google/gemma/pyTorch/1.1-2b-it/1')
+    print(f"✅ Model cached at: {path}")
 
-Additional parameters needed to build are documented at https://github.com/brave/brave-browser/wiki/Build-configuration
+    # 2. Sanitized Environment Protocols (Purged Data)
+    print("🛡️ Loading Purged Leonidas Repository Protocols...")
+    
+    sanitized_instructions = """
+    ## Sovereign Scenarios (Leonidas-Core)
 
-Internal developers can find more information at https://github.com/brave/devops/wiki/%60.env%60-config-for-Brave-Developers
+    #### Create a new branch:
+    $ cd src/core
+    $ git checkout -b branch_name
 
-## Build Brave
-The default build type is component.
+    #### Checkout existing branch or tag:
+    $ git fetch origin
+    $ git checkout [-b] branch_name
+    $ npm run sync
+    ...Updating child dependencies...
 
-```
-# start the component build compile
-npm run build
-```
+    #### Update current branch:
+    $ git pull
+    $ npm run sync
 
-To do a release build:
+    #### Reset to Master (via init):
+    $ git checkout master
+    $ git pull
+    $ npm run sync -- --init
 
-```
-# start the release compile
-npm run build Release
-```
+    #### Patch-Only Sync (Quickest Build):
+    $ git checkout featureB
+    $ git pull
+    $ cd ../..
+    $ npm run apply_patches
+    """
+    
+    with open("/content/citadel_vault/LEONIDAS_PROTOCOLS.md", "w") as f:
+        f.write(sanitized_instructions)
+    
+    print("✅ Protocols sanitized and saved to /content/citadel_vault/LEONIDAS_PROTOCOLS.md")
 
-brave-core based android builds should use `npm run build -- --target_os=android --target_arch=arm` or set the npm config variables as specified above for `init`
+# --- EXECUTION ---
+citadel_purge_and_init()
 
-brave-core based iOS builds should use the Xcode project found in `ios/brave-ios/App`. You can open this project directly or run `npm run ios_bootstrap -- --open_xcodeproj` to have it opened in Xcode. See the [iOS Developer Environment](https://github.com/brave/brave-browser/wiki/iOS-Development-Environment#Building) for more information on iOS builds.
-
-### Build Configurations
-
-Running a release build with `npm run build Release` can be very slow and use a lot of RAM, especially on Linux with the Gold LLVM plugin.
-
-To run a statically linked build (takes longer to build, but starts faster):
-
-```bash
-npm run build -- Static
-```
-
-To run a debug build (Component build with is_debug=true):
-
-```bash
-npm run build -- Debug
-```
-NOTE: the build will take a while to complete. Depending on your processor and memory, it could potentially take a few hours.
-
-## Run Brave
-To start the build:
-
-`npm start [Release|Component|Static|Debug]`
-
-# Update Brave
-
-`npm run sync -- [--force] [--init] [--create] [brave_core_ref]`
-
-**This will attempt to stash your local changes in brave-core, but it's safer to commit local changes before running this**
-
-`npm run sync` will (depending on the below flags):
-
-1. 📥 Update sub-projects (chromium, brave-core) to latest commit of a git ref (e.g. tag or branch)
-2. 🤕 Apply patches
-3. 🔄 Update gclient DEPS dependencies
-4. ⏩ Run hooks (e.g. to perform `npm install` on child projects)
-
-| flag | Description |
-|---|---|
-|`[no flags]`|updates chromium if needed and re-applies patches. If the chromium version did not change, it will only re-apply patches that have changed. Will update child dependencies **only if any project needed updating during this script run**. <br> **Use this if you want the script to manage keeping you up to date instead of pulling or switching branches manually. **|
-|`--force`|updates both _Chromium_ and _brave-core_ to the latest remote commit for the current brave-core branch and the _Chromium_ ref specified in brave-browser/package.json (e.g. `master` or `74.0.0.103`). Will re-apply all patches. Will force update all child dependencies. <br> **Use this if you're having trouble and want to force the branches back to a known state. **|
-|`--init`|force update both _Chromium_ and _brave-core_ to the versions specified in brave-browser/package.json and force updates all dependent repos - same as `npm run init`|
-|`--sync_chromium (true/false)`|Will force or skip the chromium version update when applicable. Useful if you want to avoid a minor update when not ready for the larger build time a chromium update may result in. A warning will be output about the current code state expecting a different chromium version. Your build may fail as a result.|
-|`-D, --delete_unused_deps`|Will delete from the working copy any dependencies that have been removed since the last sync. Mimics `gclient sync -D`.|
-
-Run `npm run sync brave_core_ref` to checkout the specified _brave-core_ ref and update all dependent repos including chromium if needed.
-
-## Scenarios
-
-#### Create a new branch:
-```bash
-brave-browser> cd src/brave
-brave-browser/src/brave> git checkout -b branch_name
-```
-
-#### Checkout an existing branch or tag:
-```bash
-brave-browser/src/brave> git fetch origin
-brave-browser/src/brave> git checkout [-b] branch_name
-brave-browser/src/brave> npm run sync
-...Updating 2 patches...
-...Updating child dependencies...
-...Running hooks...
-```
-
-#### Update the current branch to the latest remote:
-```bash
-brave-browser/src/brave> git pull
-brave-browser/src/brave> npm run sync
-...Updating 2 patches...
-...Updating child dependencies...
-...Running hooks...
-```
-
-#### Reset to latest brave-browser master and brave-core master (via `init`, will always result in a longer build and will remove any pending changes in your brave-core working directory):
-```bash
-brave-browser> git checkout master
-brave-browser> git pull
-brave-browser> npm run sync -- --init
-```
-
-#### When you know that DEPS didn't change, but .patch files did (quickest attempt to perform a mini-sync before a build):
-```bash
-brave-browser/src/brave> git checkout featureB
-brave-browser/src/brave> git pull
-brave-browser/src/brave> cd ../..
-brave-browser> npm run apply_patches
-...Applying 2 patches...
-```
-
-# Enabling third-party APIs:
-
-1. **Google Safe Browsing**: Get an API key with SafeBrowsing API enabled from https://console.developers.google.com/. Update the `GOOGLE_API_KEY` environment variable with your key as per https://www.chromium.org/developers/how-tos/api-keys to enable Google SafeBrowsing.
-
-# Development
-
-- [Security rules from Chromium](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/security/rules.md)
-- [IPC review guidelines](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/ipc-reviews.md) (in particular [this reference](https://docs.google.com/document/d/1Kw4aTuISF7csHnjOpDJGc7JYIjlvOAKRprCTBVWw_E4/edit#heading=h.84bpc1e9z1bg))
-- [Brave's internal security guidelines](https://github.com/brave/internal/wiki/Pull-request-security-audit-checklist) (for employees only)
-- [Rust usage](https://github.com/brave/brave-core/blob/master/docs/rust.md)
-
-# Troubleshooting
-
-See [Troubleshooting](https://github.com/brave/brave-browser/wiki/Troubleshooting) for solutions to common problems.
+# --- SOVEREIGN SECURITY DEPLOYMENT ---
+# Environment is now ready for custom Arch Linux integration.
